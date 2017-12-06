@@ -202,8 +202,12 @@ export default class Presentation extends React.Component {
           </Slide>
           <Slide transition={["zoom"]} bgColor="primary">
             <Heading size={1} Fit cap lineHeight={1.5} textColor="secondary">
-              Fin
+              gitHub
             </Heading>
+            <Text lineHeight={2} textColor="white">
+              <Layout>Codes:</Layout>
+              https://github.com/F1nalFortune/Grid_Security_Spec
+            </Text>
           </Slide>
         </Deck>
       </Spectacle>
