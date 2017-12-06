@@ -1,0 +1,12 @@
+var obj = Object.new()
+
+var person={name:'Brian', height:'6'1'}
+
+//Accessing Object Properties
+	person.name
+	person['name']
+
+//Adjusting Object Properties
+	person.name = 'Brian'
+  	person.hobby = 'Snowboarding'
+  	person.occupation = 'Programmer'
